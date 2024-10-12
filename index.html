@@ -1,84 +1,104 @@
 <!DOCTYPE html>
-<!-- saved from url=(0034)http://127.0.0.1:5500/glowing.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-.glowing-text{
-    color:#fff;
-    text-shadow: 0 0 20px red;
-    font-family:Edwardian Script ITC;
-font-size:80px;
-text-align: center;
-letter-spacing:10px;
-}
-body{
-    background-color: black;
-}
-
-    </style>
+    <title>Your Name - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="./anime2.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
 </head>
-<body data-new-gr-c-s-check-loaded="14.1080.0" data-gr-ext-installed="">
-    <h1 class="glowing-text">Mathi s</h1>
+<body>
+    <header>
+        <h1>MATHI S</h1>
+        <p>Web Developer | Passionate about building web applications</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
+    <section id="about">
+        <h2>About Me</h2>
+       
+        <p> "Hello I am Mathi , a driven and ambitious web development enthusiast.with a strong foundation in computer
+            service (BSc ,Alagappa University,2022).I am eager to bring innovative solutions to the digital world.Currently ,I'm Enhancing my skills in web development
+            through Accord info Matrix"</p>
+   <table>
 
-</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
-      div.grammarly-desktop-integration {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        padding: 0;
-        margin: -1px;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        white-space: nowrap;
-        border: 0;
-        -moz-user-select: none;
-        -webkit-user-select: none;
-        -ms-user-select:none;
-        user-select:none;
-      }
+    <tr>
+        <td>
+            <h2>Key Skills</h2>
+            <ul>
+             <li>Programming Languages:HTML,CSS,Java Script,Java</li>
+             <li>Web Frameworks:Bootstrap,React</li>
+             <li>Database:MYSQl,SQL</li>
+             <li>OPerationg systems:Windows</li>
+            </ul>
+        </td>
+        <td></td> <td></td> <td></td> <td></td>
+       
+       <td>
+        <img src="./assets/output-onlinegiftools.gif" alt="not available">
+       </td>
+    </tr>
+   </table>
 
-      div.grammarly-desktop-integration:before {
-        content: attr(data-content);
-      }
-    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
+   
+   <h2>Personal Branding Statement</h2>
+   <p>"Empowering digital transformation through creative web solutions,I craft intutive and user-friendly Experiences
+    that drive results."</p>
+
+    <h2>Education</h2>
+    <ul>
+        <li>  Bsc Computer Science,Alagappa University        </li>
+        <li>Web development and Java Course,Accord Info matrix</li>
+        <li>HDCA Course,CSC</li>
+        <li>Internship,Izeon innovative(On going)</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>Email:mathimathu476@gmail.com</p>
+    <p>Phone Number:9566596266</p>
+    <p></p>
+    
+    </section>
+
+
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project Title 1</h3>
+            <p>Description of the project, the technologies used, and the outcome.</p>
+            <a href="https://github.com/yourusername/project1" target="_blank">View Code</a> |
+            <a href="https://yourprojectlink.com" target="_blank">Live Demo</a>
+        </div>
+        <div class="project">
+            <h3>Project Title 2</h3>
+            <p>Description of the project, the technologies used, and the outcome.</p>
+            <a href="https://github.com/yourusername/project2" target="_blank">View Code</a> |
+            <a href="https://yourprojectlink.com" target="_blank">Live Demo</a>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
