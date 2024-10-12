@@ -2,7 +2,7 @@
 - 👀 I’m interested in Frontend Development 
 - 🌱 I’m currently learning python and java full staCk Courses in Izeon Innovative 
 - 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me mathmathu476@gmail.Com
+- 📫 How to reach me mathimathu476@gmail.Com
 - 😄 Pronouns: ...
 - ⚡ Fun fact: No one Can do my Role Better than Me.
 
