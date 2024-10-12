@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Mathi-002
 - 👀 I’m interested in Frontend Development 
-- 🌱 I’m currently learning python and java full staCk Courses in Izeon Innovative 
+- 🌱 I’m currently learning  java full staCk Courses in Izeon Innovative 
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me mathimathu476@gmail.Com
 - 😄 Pronouns: ...
