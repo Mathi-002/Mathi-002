@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Light background */
+    color: #333; /* Dark text */
+    width: 98%;
+    margin: auto;
+    user-select: none;
+}
+
+header {
+    background: #0d0d0e; /* Bright blue */
+    color: #e63c1e;
+    padding: 20px 0;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+header:hover {
+    background: #22211a; /* Darker blue on hover */
+    color:red;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Gold on hover */
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #050505; /* White section background */
+    transition: transform 0.3s;
+    color: #e63c1e;
+}
+
+section:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+    color: red;
+}
+
+.project {
+    background: #000000; /* Light gray for projects */
+    padding: 10px;
+    margin:5px 0;
+    border-radius: 5px;
+    transition: background 0.3s;
+    color: #e63c1e;
+}
+
+.project:hover {
+    background: #d3d3d3; /* Darker gray on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background:black;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF; /* Button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on button hover */
+}
